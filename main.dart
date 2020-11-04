@@ -1,16 +1,16 @@
-// dart:io
-
-import "dart:io";
+// dart:core
+import 'dart:core';
 
 main() {
-var firstName = "Justin";
-String lastName = "Varghese";
+var firstName = 'Justin';
+String lastName = 'Varghese';
 
-print(firstName+ ' ' + lastName);
-}
+print(firstName + ' ' + lastName);
+}import 'dart:core';
 
-justin() {
- stdout.writeIn('what is your name: ?');
- String name = stdin.readLineSync();
- print("My name is $name");
+main() {
+var firstName = 'Justin';
+String lastName = 'Varghese';
+
+print(firstName + ' ' + lastName);
 }
